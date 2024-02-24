@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateCloumTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('sub_items', function (Blueprint $table) {
+            $table->enum('show',[1,0]);
+            $table->string('used_count')->nullable();
+            $table->string('last_used')->nullable();
+            $table->string('click_count')->nullable();
+            $table->string('copy_count')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('sub_items', function (Blueprint $table) {
+            $table->dropColumn('show');
+        });
+    }
+}

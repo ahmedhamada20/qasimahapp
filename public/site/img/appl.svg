@@ -1,0 +1,11 @@
+<svg id="appl" xmlns="http://www.w3.org/2000/svg" width="176.293" height="60" viewBox="0 0 176.293 60">
+  <rect id="Rectangle_98" data-name="Rectangle 98" width="176.293" height="60" rx="7" transform="translate(0)" fill="#ffd36a"/>
+  <g id="Group_158" data-name="Group 158" transform="translate(17.629 12)">
+    <text id="APP_STORE" data-name="APP STORE" transform="translate(0 32.629)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">APP STORE</tspan></text>
+    <text id="Download_on_the" data-name="Download on the" transform="translate(82 10)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="-82.221" y="0">Download on the</tspan></text>
+  </g>
+  <g id="company" transform="translate(133.177 14.999)">
+    <path id="Path_670" data-name="Path 670" d="M54.332,141.475c-4.548-.026-8.31-9.31-8.31-14.038,0-7.723,5.794-9.414,8.026-9.414a9.236,9.236,0,0,1,3.028.745,6.77,6.77,0,0,0,1.729.5,5.382,5.382,0,0,0,1.241-.4,9.942,9.942,0,0,1,3.739-.9h.009a7.664,7.664,0,0,1,6.413,3.239l.468.7-.673.508a5.665,5.665,0,0,0-2.716,4.671,5.272,5.272,0,0,0,2.942,4.874c.421.254.858.515.858,1.087,0,.373-2.979,8.389-7.306,8.389a5.876,5.876,0,0,1-2.467-.6,5,5,0,0,0-2.2-.529,5.649,5.649,0,0,0-1.739.47,8.517,8.517,0,0,1-3.016.7Z" transform="translate(-46.022 -110.918)" fill="#fff"/>
+    <path id="Path_671" data-name="Path 671" d="M260.9,0c.113,4.063-2.793,6.882-5.7,6.7C254.722,3.462,258.1,0,260.9,0Z" transform="translate(-242.673)" fill="#fff"/>
+  </g>
+</svg>

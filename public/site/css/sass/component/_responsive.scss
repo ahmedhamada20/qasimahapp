@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+   
+    
+}
+@media (max-width: 1250px) {
+ 
+}
+@media (max-width: 992px) { 
+    .inner_header{
+        margin-top: 20px;
+    }
+    .main_slider{
+        margin-top: 20px;
+    }
+    .i-open{
+        overflow: hidden;
+    }
+    .md_show{
+        display: block;
+    }
+    .md_none{
+        display: none;
+    }
+    .responsive_nav{
+        display:flex;
+    }
+    .links_a{
+        padding-top:40px;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 65px;
+        left: -100%;
+        z-index: 44;
+        background-color:#fff;
+        transition: left 0.6s;
+        &.open{
+            left: 0;
+        }
+        ul{
+            flex-direction: column;
+            li{
+                margin-bottom: 10px;
+                a{
+                    font-weight:600;
+                }
+            }
+        }
+        .md_show{
+            display:flex;
+            justify-content: center;
+            margin-top:20px;
+            .cont_lang {
+                a{
+                    span{
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+ }
+ @media (max-width: 700px) { 
+     .foot-top ul{
+         display: none;
+     }
+    .i_head{
+        min-height:120px;
+    }
+    
+.foot-buttom{
+    border-top: 0;
+    flex-wrap: wrap;
+    ul{
+        margin-top: 10px;
+    }
+   
+}
+.item_noti{
+    flex-direction: column;
+}
+}
+ @media (max-width: 500px) {
+
+   .login_body{
+       max-width:96%;
+       margin:0 2%;
+
+   }
+
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 420px;
+    margin: 1.75rem auto;
+}
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="50" viewBox="0 0 195 50">
+  <g id="face" transform="translate(-512 -602)">
+    <rect id="Rectangle_2937" data-name="Rectangle 2937" width="195" height="50" rx="5" transform="translate(512 602)" fill="#3b5998"/>
+    <g id="Group_10915" data-name="Group 10915" transform="translate(11.875 -8)">
+      <path id="Icon_awesome-facebook" data-name="Icon awesome-facebook" d="M30.562,15.654A15,15,0,1,0,13.219,30.563V20.016H9.408V15.654h3.81V12.329c0-3.782,2.238-5.871,5.666-5.871a22.949,22.949,0,0,1,3.358.295v3.712H20.35a2.175,2.175,0,0,0-2.444,2.357v2.833h4.16L21.4,20.016H17.906V30.563A15.069,15.069,0,0,0,30.562,15.654Z" transform="translate(544.563 619.438)" fill="#fff"/>
+      <text id="Facebook" transform="translate(584.798 640)" fill="#fff" font-size="14" font-family="Quicksand-Medium, Quicksand" font-weight="500"><tspan x="0" y="0">Facebook</tspan></text>
+    </g>
+  </g>
+</svg>

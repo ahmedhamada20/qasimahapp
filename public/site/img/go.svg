@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="50" viewBox="0 0 195 50">
+  <g id="go" transform="translate(-512 -602)">
+    <rect id="Rectangle_2937" data-name="Rectangle 2937" width="195" height="50" rx="5" transform="translate(512 602)" fill="#f14336"/>
+    <g id="Group_10916" data-name="Group 10916" transform="translate(20.673 -8)">
+      <text id="Google" transform="translate(585 640)" fill="#fff" font-size="14" font-family="Quicksand-Medium, Quicksand" font-weight="500"><tspan x="0" y="0">Google</tspan></text>
+      <path id="Icon_awesome-google-plus" data-name="Icon awesome-google-plus" d="M15,.562a15,15,0,1,0,15,15A15.005,15.005,0,0,0,15,.562Zm-4.276,22.5a7.5,7.5,0,0,1,0-15,7.244,7.244,0,0,1,5.02,1.954l-2.032,1.972a4.255,4.255,0,0,0-2.988-1.155,4.724,4.724,0,0,0,0,9.448,4.066,4.066,0,0,0,4.24-3.224h-4.24V14.48h7.071a6.6,6.6,0,0,1,.115,1.252c0,4.282-2.873,7.331-7.185,7.331Zm13.923-6.423v2.147H22.5V16.639H20.353V14.492H22.5V12.345h2.147v2.147h2.129v2.147Z" transform="translate(545.327 619.438)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

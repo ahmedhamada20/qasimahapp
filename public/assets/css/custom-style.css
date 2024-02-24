@@ -1,0 +1,33 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tajawal', sans-serif;
+}
+body.enlarged #logo {
+    width: 50px;
+}
+.navbar-custom {
+    background-color: #2b3d51;
+}
+#sidebar-menu>ul>li>a.active {
+    background-color: #f5f8fb;
+    color: #64b0f2;
+}
+.navbar-custom .topnav-menu .nav-link, .navbar-custom .button-menu-mobile {
+    color: #fff;
+}
+.page-item.active .page-link, .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #388e3c;
+    border-color: #388e3c;
+}
+#sidebar-menu>ul>li>a.active {
+    color: #388e3c;
+}
+.nav-second-level li.mm-active>a, .nav-third-level li.mm-active>a {
+    color: blue;
+}
+#sidebar-menu > ul > li > a {
+    color: #333;
+}
+#wrapper {
+    zoom: 90%;
+}

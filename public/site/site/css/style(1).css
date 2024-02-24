@@ -1,0 +1,387 @@
+  :root {
+      --unnamed-color-000000: #000000;
+      --unnamed-color-ffffff: #FFFFFF;
+      --unnamed-color-a9a9a9: #A9A9A9;
+      --unnamed-color-ffd664: #FFD664;
+      --unnamed-color-2fad9f00: #2FAD9F00;
+  }
+
+  * {
+      font-family: Tajawal, Bold;
+
+  }
+
+  .logo {
+      width: 85px;
+      height: 85px;
+      margin-top: 24px;
+  }
+
+  .menu {
+      width: 32px;
+      height: 32px;
+      margin-top: 50px;
+  }
+
+  .centerimg {
+      display: flex;
+      justify-content: center;
+  }
+
+  .centerimg2 {
+      display: flex;
+      justify-content: center;
+  }
+
+  .mypos {
+      position: absolute;
+      top: 200px;
+      left: 32%;
+      width: 117px;
+      height: 199px;
+      z-index: 99;
+  }
+
+  .app1 {
+      width: 162px;
+      height: 50px;
+      margin-right: 5px;
+
+  }
+
+  .app2 {
+      width: 162px;
+      height: 50px;
+      margin-left: 5px;
+
+  }
+
+  .baseda {
+      background-color: #FFD664;
+      border-radius: 20px;
+      height: 400px;
+      background-image: url(../img/celeb-background.png);
+      text-align: center;
+  }
+
+  .mbaseta {
+      margin-top: 66px;
+  }
+
+  .p3 {
+      text-align: right;
+      font: normal normal bold 75px/100px Tajawal;
+      letter-spacing: 0px;
+      color: #009181;
+      opacity: 1;
+      font-size: 75px;
+  }
+
+  .p4 {
+      text-align: right;
+      font: normal normal bold 42px/56px Tajawal;
+      letter-spacing: 0px;
+      color: #009181;
+      opacity: 1;
+      font-size: 56px;
+  }
+
+  .p5 {
+      text-align: center;
+      font: normal normal bold 24px/32px Tajawal;
+      letter-spacing: 0px;
+      color: #009181;
+      opacity: 1;
+      font-size: 40px;
+  }
+
+  .green {
+      background-color: #2FAD9F;
+      border-radius: 24px;
+  }
+
+  .myh3 {
+      border-right: #FFD664 solid 5px;
+      padding: 2px;
+      padding-right: 10px;
+  }
+
+  .lg {
+      background-image: linear-gradient(#2FAD9F, #185750);
+      height: 450px;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      margin-bottom: 40px;
+  }
+
+  .white {
+      color: #FFFFFF;
+  }
+
+  .gray {
+      color: #A9A9A9;
+  }
+
+  .mya {
+      text-decoration: none;
+      color: #2FAD9F;
+  }
+
+  .imgcard {
+      width: 100%;
+  }
+
+  .mycontainer {
+      width: 70%;
+      margin-left: auto;
+  }
+
+  .imgcard1 {
+      margin-top: 25px;
+  }
+
+  h6 {
+      line-height: 30px;
+  }
+
+  .myh1 {
+      font-size: 40px;
+      font-weight: 700;
+  }
+
+
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #2fad9ef6;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #ffffff;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+
+  #main {
+      transition: margin-left .5s;
+      padding: 16px;
+  }
+
+  @media screen and (max-height: 450px) {
+      .sidenav {
+          padding-top: 15px;
+      }
+
+      .sidenav a {
+          font-size: 18px;
+      }
+  }
+
+
+
+
+
+
+
+  @media (max-width: 575.98px) {
+      .logo {
+          width: 55px;
+          height: 55px;
+          margin-top: 16px;
+      }
+
+      .green {
+          background-color: #2FAD9F;
+          border-radius: 10px;
+      }
+
+      .menu {
+          width: 32px;
+          height: 32px;
+          margin-top: 32px;
+      }
+
+      .mypos {
+          display: none;
+      }
+
+      .app1 {
+          width: 140px;
+          height: 44px;
+          margin-right: 1px;
+
+      }
+
+      .app2 {
+          width: 140px;
+          height: 44px;
+          margin-left: 1px;
+
+      }
+
+      .mbaseta {
+          margin-top: 0px;
+      }
+
+      .baseda {
+          background-color: #FFD664;
+          border-radius: 20px;
+          height: 500px;
+          background-image: url(../img/celeb-background.png);
+          text-align: center;
+      }
+
+      .p3 {
+          text-align: center;
+
+          letter-spacing: 0px;
+          color: #009181;
+          opacity: 1;
+          font-size: 40px;
+      }
+
+      .p4 {
+          text-align: center;
+
+          letter-spacing: 0px;
+          color: #009181;
+          opacity: 1;
+          font-size: 25px;
+      }
+
+      .p5 {
+          text-align: center;
+
+          letter-spacing: 0px;
+          color: #009181;
+          opacity: 1;
+          font-size: 24px;
+      }
+
+      .none {
+          display: none;
+      }
+
+      .mycontainer {
+          width: 100%;
+          margin-right: auto;
+      }
+
+      .mytext {
+          margin-top: 19px;
+      }
+
+
+      .lg {
+          background-image: linear-gradient(#2FAD9F, #185750);
+          height: 450px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          margin-bottom: 40px;
+      }
+
+      .myh1 {
+          font-size: 32px;
+          font-weight: 700;
+      }
+
+      .gray {
+          padding-left: 8px;
+      }
+  }
+
+
+
+
+
+
+  @media (min-width: 576px) and (max-width:1000px) {
+      .mypos {
+          display: none;
+
+      }
+
+      .mbaseta {
+          margin-top: 0px;
+      }
+
+      .logo {
+          width: 85px;
+          height: 85px;
+      }
+
+      .menu {
+          width: 32px;
+          height: 32px;
+      }
+
+      .baseda {
+          background-color: #FFD664;
+          border-radius: 20px;
+          height: 425px;
+          background-image: url(../img/celeb-background.png);
+          text-align: center;
+      }
+
+      .p3 {
+          text-align: right;
+
+          letter-spacing: 0px;
+          color: #009181;
+          opacity: 1;
+          font-size: 35px;
+          font-weight: 700;
+      }
+
+      .p4 {
+          text-align: right;
+
+          letter-spacing: 0px;
+          color: #009181;
+          opacity: 1;
+          font-size: 28px;
+          font-weight: 500;
+      }
+
+      .p5 {
+          text-align: center;
+
+          letter-spacing: 0px;
+          color: #009181;
+          opacity: 1;
+          font-size: 24px;
+      }
+
+      .none {
+          display: none;
+      }
+
+
+
+
+
+
+
+  }

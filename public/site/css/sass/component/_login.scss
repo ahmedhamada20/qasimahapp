@@ -1,0 +1,152 @@
+.login_container{
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    background-color:#00000061;
+    top: 0;
+    left: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_body{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color:#fff;
+    h6{
+        text-align: center;
+        margin-bottom:10px;
+    }
+    h5{
+        text-align: center;
+        margin-bottom:15px;
+
+    }
+}
+.form_input{
+    margin-bottom: 20px;
+    input{
+        border-radius: 5px;
+        width: 100%;
+        height: 37px;
+        border:1px solid #DFDFDF;
+        padding: 0 10px;
+        color: #000;
+       
+        &:focus{
+            outline: 1px solid $main-color; 
+        }
+        
+    }
+    select{
+        border-radius: 5px;
+        width: 100%;
+        height: 37px;
+        border:1px solid #DFDFDF;
+        padding: 0 10px;
+        color: #000;
+       
+        &:focus{
+            outline: 1px solid $main-color; 
+        }
+        
+    }
+
+
+}
+.save_password{
+    label{
+        display: flex;
+        align-items: center;
+        input{
+            width: 20px;;
+            height: 20px;
+            accent-color: $main-color;
+        }
+        span{
+            margin: 0 5px;
+            font-size: 14px;
+        }
+    }
+}
+.submit_but{
+
+}
+.login_btn{
+    display: inline-block;
+    background: $main-color;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: $secondColor;
+    width: 100%;
+    margin-bottom:20px;
+    // border: 0;
+    &:hover{
+
+color: $secondColor;
+    }
+}
+.lo_btn{
+    display: inline-block;
+    background:#F6F7F9;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    // color: $secondColor;
+    width: 100%;
+    // border: 0;
+    &:hover{
+
+color: $secondColor;
+    }
+}
+.save_password{
+    margin-bottom:20px;
+}
+.main_btn{
+
+}
+button{
+    border: 0;
+    cursor: pointer;
+}
+.google_login{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    a{
+        width: 49%;
+    }
+    img{
+        // width: 50%;
+    }
+}
+.forget_p{
+    text-align: center;
+    margin-bottom:30px;
+}
+.log-m{
+    margin-bottom: 20px;
+    color: #7B809E;
+    font-size: 13px;
+}
+
+.conact_whats{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    img{
+        
+        width: 30px;
+
+    }
+    span{
+        font-size: 14px;
+        margin: 0 8px;
+    }
+}
